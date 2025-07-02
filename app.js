@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 // Problema de CORS: quando a gente executa as requisições de mesmo domínio local onde o React vai estar rodando
 app.use(cors({ credentials: true, origin: "*" }));
 
-app.use("/uploads", express.static(path.join(__dirname, "/uploads")));
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 // Importa e executa a conexão com o banco de dados
 require("./config/db.js");
