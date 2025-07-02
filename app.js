@@ -4,7 +4,7 @@ const express = require("express");
 const path = require("path");
 const cors = require("cors");
 
-const port = process.env.MONGOPORT|| 3333;
+const port = process.env.MONGOPORT|| 27017;
 
 const app = express();
 
