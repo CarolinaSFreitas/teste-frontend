@@ -7,6 +7,7 @@ const Home = () => {
   const { auth } = useAuth();
   const user = localStorage.getItem("user");
   const userData = user ? JSON.parse(user) : null;
+  // eslint-disable-next-line no-unused-vars
   const isAssistente = userData?.isAssistente;
   return (
     <div className="home">

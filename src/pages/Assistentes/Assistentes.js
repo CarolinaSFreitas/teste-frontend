@@ -40,7 +40,7 @@ const Assistentes = () => {
   const meusAssistentes = assistentes?.filter((assistente) =>
     assistente.medicoIds?.some((id) => id === auth._id)
   );
-
+// eslint-disable-next-line no-unused-vars
   const outrosAssistentes = assistentes?.filter(
     (assistente) => !assistente.medicoIds?.some((id) => id === auth._id)
   );
