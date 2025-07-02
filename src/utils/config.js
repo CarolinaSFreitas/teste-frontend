@@ -1,4 +1,4 @@
-export const api = "https://docagenda-backend.up.railway.app/api";
+export const api = "https://docagenda-backend.up.railway.app/api/notifications";
 export const uploads = "https://docagenda-backend.up.railway.app/uploads";
 
 export const requestConfig = (method, data, token) => {
